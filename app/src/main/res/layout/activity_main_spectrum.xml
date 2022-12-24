@@ -62,7 +62,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_5" />
+                    android:src="@drawable/phython" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -101,7 +101,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_9" />
+                    android:src="@drawable/c" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -140,7 +140,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_8" />
+                    android:src="@drawable/cplus" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -179,7 +179,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_6" />
+                    android:src="@drawable/csharp" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -219,7 +219,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_1" />
+                    android:src="@drawable/java" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -258,7 +258,7 @@
                     android:layout_height="46dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_14" />
+                    android:src="@drawable/sql" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -297,7 +297,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_3" />
+                    android:src="@drawable/javascript" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -339,7 +339,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_11" />
+                    android:src="@drawable/typescript" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -379,7 +379,7 @@
                     android:layout_margin="16dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_12" />
+                    android:src="@drawable/go" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -418,7 +418,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_7" />
+                    android:src="@drawable/php" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -458,7 +458,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_2" />
+                    android:src="@drawable/kotlin" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -498,7 +498,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_13" />
+                    android:src="@drawable/rust" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -537,7 +537,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_15" />
+                    android:src="@drawable/dart" />
 
                 <TextView
                     android:layout_width="0dp"
@@ -577,7 +577,7 @@
                     android:layout_height="60dp"
                     android:layout_weight="0.6"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/img_10" />
+                    android:src="@drawable/swift" />
 
                 <TextView
                     android:layout_width="0dp"

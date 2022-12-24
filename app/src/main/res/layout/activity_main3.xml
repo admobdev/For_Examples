@@ -23,17 +23,16 @@
             android:background="@drawable/shapable">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageVIEWER"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="fitCenter"
-                android:src="@drawable/img_2"
-                />
-           <!-- <VideoView
-                android:id="@+id/videoview"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true" />-->
+                android:src="@drawable/kotlin" />
+            <!-- <VideoView
+                 android:id="@+id/videoview"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerInParent="true" />-->
 
 
         </RelativeLayout>
@@ -65,7 +64,7 @@
                 android:layout_height="match_parent">
 
                 <TextView
-                    android:id="@+id/programming"
+                    android:id="@+id/textVIEWER"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="7dp"

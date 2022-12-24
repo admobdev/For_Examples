@@ -16,6 +16,7 @@ import pl.ozodbek.for_examples.databinding.ActivityMain2Binding;
 public class MainActivity2 extends AppCompatActivity {
 
     private ActivityMain2Binding binding;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,59 +60,57 @@ public class MainActivity2 extends AppCompatActivity {
 
     @SuppressLint("NonConstantResourceId")
     public void Clickable(View view) {
-        Intent intent = new Intent(getApplicationContext(), MainActivity3.class);
+
         switch (view.getId()) {
-            case R.id.kotlin:
-               getDataMethod(0);
+            case R.id.python:
+                getDataMethod(0);
                 break;
             case R.id.java:
                 getDataMethod(1);
                 break;
-            case R.id.sql:
+            case R.id.javaScript:
                 getDataMethod(2);
                 break;
-            case R.id.javaScript:
+            case R.id.cplus:
                 getDataMethod(3);
                 break;
-            case R.id.reactJS:
+            case R.id.csharp:
                 getDataMethod(4);
                 break;
-            case R.id.python:
+            case R.id.c:
                 getDataMethod(5);
                 break;
-            case R.id.csharp:
+            case R.id.typescript:
                 getDataMethod(6);
                 break;
             case R.id.php:
                 getDataMethod(7);
                 break;
-            case R.id.cplus:
+            case R.id.sql:
                 getDataMethod(8);
                 break;
-            case R.id.c:
+            case R.id.go:
                 getDataMethod(9);
                 break;
-            case R.id.swift:
+            case R.id.kotlin:
                 getDataMethod(10);
                 break;
-            case R.id.typescript:
+            case R.id.rust:
                 getDataMethod(11);
                 break;
-            case R.id.go:
+            case R.id.dart:
                 getDataMethod(12);
                 break;
-            case R.id.dart:
+            case R.id.swift:
                 getDataMethod(13);
                 break;
         }
-        startActivity(intent);
     }
 
     public void getDataMethod(int id) {
-        Intent intent = new Intent(MainActivity2.this, MainActivity3.class);
-        intent.putExtra("id", id);
+        Intent intent = new Intent(this, MainActivity3.class);
+        intent.putExtra("importedDATA", id);
         startActivity(intent);
-        finish();
     }
 
 }

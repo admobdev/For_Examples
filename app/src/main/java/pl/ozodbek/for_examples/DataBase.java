@@ -2,36 +2,37 @@ package pl.ozodbek.for_examples;
 
 public class DataBase {
     public static int[] images = {
-            R.drawable.img_1,
-            R.drawable.img_2,
-            R.drawable.img_3,
-            R.drawable.img_4,
-            R.drawable.img_5,
-            R.drawable.img_6,
-            R.drawable.img_7,
-            R.drawable.img_8,
-            R.drawable.img_9,
-            R.drawable.img_10,
-            R.drawable.img_11,
-            R.drawable.img_12,
-            R.drawable.img_13
+            R.drawable.phython,
+            R.drawable.java,
+            R.drawable.javascript,
+            R.drawable.cplus,
+            R.drawable.csharp,
+            R.drawable.c,
+            R.drawable.typescript,
+            R.drawable.php,
+            R.drawable.sql,
+            R.drawable.go,
+            R.drawable.kotlin,
+            R.drawable.rust,
+            R.drawable.dart,
+            R.drawable.swift
     };
 
     public static int[] titles = {
+            R.string.python,
             R.string.java,
             R.string.javascript,
-            R.string.python,
-            R.string.c,
             R.string.cplus,
             R.string.csharp,
+            R.string.c,
             R.string.typescript,
-            R.string.go,
-            R.string.rust,
-            R.string.sql,
-            R.string.swift,
-            R.string.kotlin,
             R.string.php,
+            R.string.sql,
+            R.string.go,
+            R.string.kotlin,
+            R.string.rust,
             R.string.dart,
+            R.string.swift,
 
     };
 }
